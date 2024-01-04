@@ -4,7 +4,21 @@
 
 This repository contains the hierarchical topic structure derived from the Care Opinion (AU) corpus. 
 
-Each topic within the hierarchy is represented as a subfolder nested within parent topics. These subfolders contain PDFs that combine a word cloud visualizing the topic's vocabulary and a dot plot illustrating the likelihood of each topic given patient-reported emotions, alongside their sentiment classifications.
+Each topic within the hierarchy is represented as a subfolder nested within parent topics. Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
+
+### Examples
+
+#### Topic Word Cloud
+This plot visualises the frequency and relevance of terms within a topic. This topic captures discussion relating to care for musculoskeletal and nervous system conditions.
+![Topic Word Cloud](/.example/example_wordcloud_mri.png)
+
+#### Emotion/Sentiment Associations
+This plot shows the likelihood of positive and negative sentiments given the above topic. We see that this topic is more likely in negative contexts.
+![Emotion/Sentiment Associations](/.example/example_sentiments_mri.png)
+
+#### Emotion/Sentiment Associations
+This plot shows likelihood of each patient-reported emotions given the same topic. This topic is most likely under the emotion `free`, potentially reflecting a sense of relief patients may experience upon recovery from enduring pain or mobility limitations. Conversely, the negative emotion \textit{embarrassed} also features prominently, potentially signalling the psychological distress or stigma that patients often confront when dealing with chronic illnesses.
+![Emotion/Sentiment Associations](/.example/example_emotions_mri.png)
 
 ### Repository Structure
 
@@ -18,10 +32,7 @@ Each topic within the hierarchy is represented as a subfolder nested within pare
   - `/Topic_D`
     - `Topic_D.pdf`
     - ...
-   
-### Using this Repository
-
-Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
+  
 
 ### Citation
 
