@@ -30,7 +30,7 @@ Please cite this repository as follows:
 @article{Murray2024Probabilistic,
   title={Probabilistic Emotion and Sentiment Modelling of Patient-Reported Experiences},
   author={Murray, Curtis and Mitchell, Lewis and Tuke, Jonathan and Mackay, Mark},
-  year={2024},
+  year={2024}
 }
 
 ### Contact
