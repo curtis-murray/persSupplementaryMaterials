@@ -6,6 +6,19 @@ This repository contains the hierarchical topic structure derived from the Care 
 
 Each topic within the hierarchy is represented as a subfolder nested within parent topics. Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
 
+### Repository Structure
+
+- `/Topic_A`
+  - `Topic_A.pdf`
+  - `/Topic_B`
+      - `Topic_B.pdf`
+      - `/Topic_C`
+          - `Topic_C.pdf`
+      - ...
+  - `/Topic_D`
+    - `Topic_D.pdf`
+    - ...
+
 ### Examples
 
 #### Topic Word Cloud
@@ -19,20 +32,6 @@ This plot shows the likelihood of positive and negative sentiments given the abo
 #### Emotion/Sentiment Associations
 This plot shows likelihood of each patient-reported emotions given the same topic. This topic is most likely under the emotion `free`, potentially reflecting a sense of relief patients may experience upon recovery from enduring pain or mobility limitations. Conversely, the negative emotion \textit{embarrassed} also features prominently, potentially signalling the psychological distress or stigma that patients often confront when dealing with chronic illnesses.
 ![Emotion/Sentiment Associations](/.example/example_emotions_mri.png)
-
-### Repository Structure
-
-- `/Topic_A`
-  - `Topic_A.pdf`
-  - `/Topic_B`
-      - `Topic_B.pdf`
-      - `/Topic_C`
-          - `Topic_C.pdf`
-      - ...
-  - `/Topic_D`
-    - `Topic_D.pdf`
-    - ...
-  
 
 ### Citation
 
