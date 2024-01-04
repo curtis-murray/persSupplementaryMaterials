@@ -47,6 +47,7 @@ BibTeX:
   note={Manuscript in preparation},
   year={2024}
 }
+```
 
 ### Contact
 
