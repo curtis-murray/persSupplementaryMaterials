@@ -25,21 +25,26 @@ Each topic within the hierarchy is represented as a subfolder nested within pare
 This plot visualises the frequency and relevance of terms within a topic. This topic captures discussion relating to care for musculoskeletal and nervous system conditions.
 ![Topic Word Cloud](/.example/example_wordcloud_mri.png)
 
-#### Emotion/Sentiment Associations
+#### Positive and Negative Sentiments
 This plot shows the likelihood of positive and negative sentiments given the above topic. We see that this topic is more likely in negative contexts.
 ![Emotion/Sentiment Associations](/.example/example_sentiments_mri.png)
 
-#### Emotion/Sentiment Associations
-This plot shows likelihood of each patient-reported emotions given the same topic. This topic is most likely under the emotion `free`, potentially reflecting a sense of relief patients may experience upon recovery from enduring pain or mobility limitations. Conversely, the negative emotion \textit{embarrassed} also features prominently, potentially signalling the psychological distress or stigma that patients often confront when dealing with chronic illnesses.
+#### Detailed Emotion Associations
+This plot shows likelihood of each patient-reported emotions given the same topic. This topic is most likely under the emotion `free`, potentially reflecting a sense of relief patients may experience upon recovery from enduring pain or mobility limitations. Conversely, the negative emotion `embarrassed` also features prominently, potentially signalling the psychological distress or stigma that patients often confront when dealing with chronic illnesses.
 ![Emotion/Sentiment Associations](/.example/example_emotions_mri.png)
 
 ### Citation
 
 Please cite this repository as follows: 
 
-@article{Murray2024Probabilistic,
+Murray, C., Mitchell, L., Tuke, J., & Mackay, M. (2024). Probabilistic Emotion and Sentiment Modelling of Patient-Reported Experiences. Manuscript in preparation.
+
+BibTeX:
+```bibtex
+@unpublished{Murray2024Probabilistic,
   title={Probabilistic Emotion and Sentiment Modelling of Patient-Reported Experiences},
   author={Murray, Curtis and Mitchell, Lewis and Tuke, Jonathan and Mackay, Mark},
+  note={Manuscript in preparation},
   year={2024}
 }
 
