@@ -84,5 +84,5 @@ model <- p_w_e0 |>
   full_join(p_e0) |>
   select(word, Emotion, likelihood, prior = p_s)
 
-# Write model to csv
-write_csv(model, paste0(model_path, "/model.csv"))
+# Write model to rda
+save(model, file = paste0(model_path, "/model.rda"))

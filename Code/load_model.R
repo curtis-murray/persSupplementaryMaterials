@@ -3,8 +3,8 @@ library(tidytext)
 
 source("config")
 
-model_path <- paste0(base_path, "/Results/Model/model.csv")
-model <- read_csv(model_path)
+model_path <- paste0(base_path, "/Results/Model/model.rda")
+load(model_path)
 
 emotion_clustering <- read_csv(paste0(base_path, "/emotion_clustering.csv"))
 
