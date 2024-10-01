@@ -95,6 +95,9 @@ In addition to the code to generate this model, we present the topic structure o
 Each topic within the hierarchy is represented as a subfolder nested within parent topics. Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
 
 ### Topic Structure
+
+### Repository Structure
+
 - `/Topic_A`
   - `Topic_A.pdf`
   - `/Topic_B`
@@ -121,6 +124,7 @@ This plot shows likelihood of each patient-reported emotions given the same topi
 ![Emotion/Sentiment Associations](/.example/example_emotions_mri.png)
 
 ### Contact
+
 For questions or further information, please contact Curtis Murray at curtis@curtismurray.tech
 
 ---
