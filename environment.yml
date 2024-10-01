@@ -1,0 +1,11 @@
+name: pers
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.3
+  - graph-tool=2.55
+  - graph-tool-base=2.55
+  - pickleshare=0.7.5
+  - pandas=1.5.3
+  - numpy=1.24.3

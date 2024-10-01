@@ -1,0 +1,264 @@
+Emotion,count,Cluster
+thankful,1845,Positive
+grateful,1296,Positive
+cared for,921,Positive
+supported,826,Positive
+informed,783,Positive
+comfortable,675,Positive
+in pain,674,Negative
+frustrated,654,Negative
+happy,646,Positive
+disappointed,623,Negative
+looked after,618,Positive
+angry,584,Negative
+safe,573,Positive
+upset,553,Negative
+amazing,485,Positive
+reassured,445,Positive
+let down,414,Negative
+helped,411,Positive
+impressed,397,Positive
+confident,370,Positive
+appreciative,317,Positive
+at ease,300,Positive
+calm,299,Positive
+fantastic,298,Positive
+ignored,279,Negative
+concerned,265,Negative
+listened to,262,Positive
+disgusted,252,Negative
+annoyed,241,Negative
+lucky,227,Positive
+respected,223,Positive
+scared,220,Negative
+anxious,218,Negative
+relaxed,218,Positive
+worried,213,Negative
+distressed,199,Negative
+stressed,198,Negative
+confused,194,Negative
+shocked,182,Negative
+involved,179,Positive
+relieved,177,Positive
+empowered,153,Positive
+concern,145,Negative
+uncomfortable,142,Negative
+dismissed,136,Negative
+welcomed,133,Positive
+sad,129,Negative
+uninformed,129,Negative
+satisfied,128,Positive
+understood,124,Positive
+in good hands,120,Positive
+not listened to,119,Negative
+appalled,112,Negative
+traumatised,106,Negative
+valued,105,Positive
+heard,98,Positive
+suicidal,97,Negative
+pleased,93,Positive
+depressed,92,Negative
+unsupported,92,Negative
+well treated,91,Positive
+helpless,88,Negative
+unheard,88,Negative
+vulnerable,88,Negative
+disrespected,87,Negative
+trust,87,Positive
+neglected,86,Negative
+comforted,85,Positive
+embarrassed,84,Negative
+unhappy,81,Negative
+alone,78,Negative
+exhausted,78,Negative
+in control,76,Positive
+nervous,76,Negative
+relief,76,Positive
+great,73,Positive
+rushed,73,Negative
+unsafe,69,Negative
+encouraged,67,Positive
+very angry,67,Negative
+overwhelmed,65,Negative
+appalling,64,Negative
+blessed,63,Positive
+inconvenienced,63,Negative
+surprised,63,Negative
+proud,62,Positive
+humiliated,59,Negative
+belittled,58,Negative
+isolated,57,Negative
+empathetic,55,Positive
+important,53,Positive
+tired,53,Negative
+uncared for,53,Negative
+fear,52,Negative
+furious,51,Negative
+not supported,51,Negative
+frustrating,50,Negative
+secure,50,Positive
+frightened,47,Negative
+worthless,45,Negative
+not alone,44,Positive
+confidence,43,Positive
+disregarded,43,Negative
+hurt,43,Negative
+devastated,42,Negative
+feel at ease,42,Positive
+judged,41,Negative
+distressing,40,Negative
+stressful,38,Negative
+cheerful,37,Positive
+strong,37,Positive
+terrified,37,Negative
+anger,36,Negative
+discriminated against,35,Negative
+extremely disappointed,35,Negative
+excited,34,Positive
+unimportant,34,Negative
+disempowered,33,Negative
+hopeful,33,Positive
+in shock,33,Negative
+not important,32,Negative
+sadness,32,Negative
+unwell,32,Negative
+bad experience,31,Negative
+emotional,31,Negative
+forgotten,29,Negative
+positivity,28,Positive
+bullied,27,Negative
+mistreated,27,Negative
+motivated,27,Positive
+rejected,27,Negative
+abandoned,26,Negative
+fearful,26,Negative
+wellbeing,26,Positive
+afraid,24,Negative
+dissatisfied,23,Negative
+hungry,23,Negative
+prepared,23,Positive
+fed up,22,Negative
+waste of time,22,Negative
+assisted,21,Positive
+extremely happy,21,Positive
+extremely upset,21,Negative
+pain free,21,Positive
+stress free,21,Positive
+very disappointed,21,Negative
+acknowledged,20,Positive
+aggressive,20,Negative
+felt unimportant,20,Negative
+nuisance,20,Negative
+hopeless,19,Negative
+inspired,19,Positive
+intimidated,19,Negative
+gratitude,18,Positive
+violated,18,Negative
+at risk,17,Negative
+awful,17,Negative
+patronised,17,Negative
+very satisfied,17,Positive
+disadvantaged,16,Negative
+impressive,16,Positive
+offended,16,Negative
+terrific,16,Positive
+uncaring,16,Negative
+unimpressed,16,Negative
+accused,15,Negative
+fortunate,15,Positive
+heartbroken,15,Negative
+desperate,14,Negative
+given up on,14,Negative
+ashamed,13,Negative
+embarrassing,13,Negative
+emotional distress,13,Negative
+free,13,Positive
+misunderstood,13,Negative
+apprehensive,12,Negative
+distraught,12,Negative
+feel better,12,Positive
+impacted,12,Negative
+like a number,12,Negative
+lonely,12,Negative
+shamed,12,Negative
+validated,12,Positive
+worthy,12,Positive
+consulted,11,Positive
+fabulous,11,Positive
+invalidated,11,Negative
+very confused,11,Negative
+betrayed,10,Negative
+despairing,10,Negative
+disturbed,10,Negative
+insulted,10,Negative
+joy,10,Positive
+accepted,9,Positive
+arrogance,9,Negative
+deflated,9,Negative
+extremely relieved,9,Positive
+indebted,9,Positive
+agitated,8,Negative
+blown away,8,Positive
+boredom,8,Negative
+disinterested,8,Negative
+feeling sick,8,Negative
+feeling upset,8,Negative
+privileged,8,Positive
+assured,7,Positive
+astounded,7,Negative
+bewildered,7,Negative
+feeling exposed,7,Negative
+healthy and happy,7,Positive
+horrified,7,Negative
+impatient,7,Negative
+incompetance,7,Negative
+irritated,7,Negative
+being lied to,6,Negative
+defeated,6,Negative
+determined,6,Positive
+disbelief,6,Negative
+disgraceful,6,Negative
+insignificant,6,Negative
+learning a lot,6,Positive
+undervalued,6,Negative
+unworthy,6,Negative
+abused,5,Negative
+amazed and impressed,5,Positive
+cannot be bothered,5,Negative
+deceived,5,Negative
+demoralised,5,Negative
+devalued,5,Negative
+felt stigmatised,5,Negative
+loved,5,Positive
+more confident,5,Positive
+uplifted,5,Positive
+admiration,4,Positive
+astonished,4,Negative
+berated,4,Negative
+disheartened,4,Negative
+embarrassment,4,Negative
+feeling a bit better,4,Positive
+feeling a lot better now,4,Positive
+focused,4,Positive
+pressured,4,Negative
+speechless,4,Positive
+amazed,3,Positive
+belonging,3,Positive
+fobbed off,3,Negative
+irritable,3,Negative
+left behind,3,Negative
+coerced,2,Negative
+fitter,2,Positive
+guilty,2,Negative
+ridiculed,2,Negative
+very distressed,2,Negative
+aggrieved,1,Negative
+alienated,1,Negative
+apathetic,1,Negative
+bereavement,1,Negative
+dancing,1,Positive
+discouraged,1,Negative
+healthier,1,Positive
+saddened,1,Negative
+uncertain,1,Negative
+wronged,1,Negative
