@@ -3,7 +3,6 @@
 This repository contains supplementary materials and code for reproducing the probabilistic emotion and sentiment models described in our paper.
 
 ## Citation
-
 If you use this code or data in your research, please cite our paper:
 
 ```bibtex
@@ -93,6 +92,9 @@ sentiment <- model_sentiment_text("The wait was awful and I was in so much pain.
 ## Hierarchical Topic Structure
 In addition to the code to generate this model, we present the topic structure of the Care Opinion corpus presented in the corresponding paper.
 Each topic within the hierarchy is represented as a subfolder nested within parent topics. These subfolders contain PDFs that combine a word cloud visualizing the topic's vocabulary and a dot plot illustrating the likelihood of each topic given patient-reported emotions, alongside their sentiment classifications.
+=======
+Each topic within the hierarchy is represented as a subfolder nested within parent topics. Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
+>>>>>>> 47a380ee82d5b7f1cc13623100826eca9d19b42b
 
 ### Topic Structure
 - `/Topic_A`
@@ -105,9 +107,6 @@ Each topic within the hierarchy is represented as a subfolder nested within pare
   - `/Topic_D`
     - `Topic_D.pdf`
     - ...
-   
-Users can navigate through the folders to explore topics and their respective subtopics. Each topic is named using the top three words from the topic. The word clouds reflect the frequency and relevance of terms within the topic, while the lolipop plots measure the likelihood of the topic under sentiments and emotions.
-
 
 ### Contact
 For questions or further information, please contact Curtis Murray at curtis@curtismurray.tech
