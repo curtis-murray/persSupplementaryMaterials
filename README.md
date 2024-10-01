@@ -44,6 +44,7 @@ conda remove --name pers --all
 
 ### Data Preparation
 1.Place your text data in the ./Data/ directory.
+
 2.Update the ./config file:
 ```{bash}
 base_path="Data"
@@ -51,6 +52,7 @@ narratives_path="Data/narratives.csv"
 ```
 3. Ensure your text data has three columns: Title, Story, and Emotion.
 Example:
+
 | Title | Story | Emotion |
 | ----- | ----- | ------- |
 | Hospital Visit | "The staff were very kind." | happy,grateful |
@@ -66,27 +68,36 @@ This will validate the data, preprocess narratives, perform topic modelling, and
 
 ### Model Functions
 The following functions are available for emotion and sentiment analysis:
-- model_emotions_tbl(): Analyse emotions in a dataframe
-- model_emotions_text(): Analyse emotions in a single text string
-- model_sentiment_tbl(): Analyse sentiment in a dataframe
-- model_sentiment_text(): Analyse sentiment in a single text string
+- `model_emotions_tbl()`: Analyse emotions in a dataframe
+- `model_emotions_text()`: Analyse emotions in a single text string
+- `model_sentiment_tbl()`: Analyse sentiment in a dataframe
+- `model_sentiment_text()`: Analyse sentiment in a single text string
 
-Example usage:
+Example usage (Code/model.R):
 ```{r}
-
-data <- tibble(text_column = c("The staff were very helpful and kind.", "The wait was awful and I was in so much pain."))
+data <- tibble(
+  text_column = c(
+    "The staff were very helpful and kind. I loved my experience.",
+    "The wait was awful, the staff were rude and told me to stop complaining."
+  )
+)
 
 # Analyse emotions in a dataframe
-results <- model_emotions_tbl(data, "text_column")
+model_emotions_tbl(data, "text_column")
 
 # Analyse emotions in a single text string
-emotion_profile <- model_emotions_text("The staff were very helpful and kind.")
+model_emotions_text("The staff were very helpful and kind.")
 
 # Analyse sentiment in a dataframe
-sentiment_results <- model_sentiment_tbl(data, "text_column")
+model_sentiment_tbl(data, "text_column")
+
+# Analyse sentiment in a dataframe
+model_sentiment_tbl(data, "text_column")
 
 # Analyse sentiment in a single text string
-sentiment <- model_sentiment_text("The wait was awful and I was in so much pain.")
+model_sentiment_text(
+  "The wait was awful, the staff were rude and told me to stop complaining."
+)
 ```
 
 ## Hierarchical Topic Structure
