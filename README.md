@@ -53,10 +53,10 @@ narratives_path="Data/narratives.csv"
 3. Ensure your text data has three columns: Title, Story, and Emotion.
 Example:
 
-| Title | Story | Emotion |
-| ----- | ----- | ------- |
-| Hospital Visit | "The staff were very kind." | happy,grateful |
-| Emergency | "Long wait times, but good care." | frustrated,thankful |
+| Title            | Story                             | Emotion               |
+| -----            | -----                             | -------               |
+| "Hospital Visit" | "The staff were very kind."       | "happy,grateful"      |
+| "Emergency"      | "Long wait times, but good care." | "frustrated,thankful" |
 
 ## Running the Model
 1. From the project directory, run:
